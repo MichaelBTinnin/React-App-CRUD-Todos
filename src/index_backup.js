@@ -7,7 +7,7 @@ import { setContext } from '@apollo/client/link/context';
 const authLink = setContext((_, { headers }) => {
   return {
   headers: {
-       ...headers, 'x-hasura-admin-secret': process.env.REACT_APP_API_KEY
+       ...headers, 'x-hasura-admin-secret': '5FAWmUc0k8FkEBPV04GZyxIuwHceHezENiXXVKnOPFF5PG9XvCyTgHXxGfepUZx5'
      }
    }
  });
